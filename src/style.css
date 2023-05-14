@@ -261,3 +261,10 @@ body {
         width: 0;
     }
 }
+
+img {
+    padding-left: 30px;
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
