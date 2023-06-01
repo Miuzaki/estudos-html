@@ -75,6 +75,7 @@ body {
     font-weight: 700;
     line-height: 1.2;
 }
+
 .home-content h1::before {
     content: '';
     position: absolute;
@@ -86,6 +87,7 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: .1s;
 }
+
 .home-content h3 {
     position: relative;
     font-size: 32px;
@@ -251,6 +253,7 @@ body {
     z-index: -1;
     transition: .5s;
 }
+
 .home-sci a:hover::before {
     width: 100%;
 }
@@ -267,4 +270,18 @@ img {
     position: relative;
     width: 50%;
     height: 50%;
+}
+
+.slide-left {
+	animation: slide-left 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100px);
+    }
 }
