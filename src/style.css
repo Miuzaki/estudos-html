@@ -268,13 +268,16 @@ body {
 img {
     padding-left: 30px;
     position: relative;
+    background: transparent;
+    background-color: transparent;
     width: 50%;
     height: 50%;
 }
 
 .slide-left {
-	animation: slide-left 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: slide-left 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
 
 @keyframes slide-left {
     0% {
