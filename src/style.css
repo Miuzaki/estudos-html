@@ -274,7 +274,7 @@ img {
     height: 50%;
 }
 
-.slide-left {
+.slide-lefts {
     animation: slide-left 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
